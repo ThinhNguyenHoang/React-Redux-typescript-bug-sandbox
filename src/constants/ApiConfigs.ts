@@ -1,0 +1,5 @@
+export const API_CONSTANT = {
+    BASE_URL: process.env.REACT_APP_BASE_URL,
+    GCLOUD_API_KEY: process.env.REACT_APP_GCLOUD_API_KEY,
+    GCLOUD_CLIENT_ID: process.env.REACT_APP_GCLOUD_CLIENT_ID,
+}

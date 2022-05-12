@@ -1,0 +1,36 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Edge",
+			"request": "launch",
+			"type": "msedge",
+			"url": "http://abcx.bklms-lc.net:3000",
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"type": "pwa-chrome",
+			"request": "launch",
+			"name": "Launch Chrome against localhost",
+			"url": "http://localhost:3000",
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"name": "Launch Firefox",
+			"type": "firefox",
+			"request": "launch",
+			"reAttach": true,
+			"url": "http://tenanta.bklms-lc.net:3000/",
+			"webRoot": "${workspaceFolder}",
+			"pathMappings": [
+				{
+					"url": "file:///home/consigliere/WebstormProjects/lms/frontend/src/pages/Tenant/Class/Content/ClassVotingDetail/ClassVotingDetailPage.tsx",
+					"path": "${workspaceFolder}/src/pages/Class/Content/ClassVotingDetail/ClassVotingDetailPage.tsx"
+				}
+			]
+		}
+	]
+}
